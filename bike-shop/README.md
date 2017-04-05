@@ -1,6 +1,6 @@
 # Bike Shop
 
-Model a bike shop using object-oriented JavaScript.
+Model the inventory of a bike shop (bicycle types and parts) using object-oriented JavaScript.
 
 There are 4 stages, each which builds upon some core OOP concept:
 
