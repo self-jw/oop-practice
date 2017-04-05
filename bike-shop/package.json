@@ -1,0 +1,19 @@
+{
+  "name": "bike-shop",
+  "description": "",
+  "private": false,
+  "version": "0.0.0",
+  "engines": {
+    "node": "7.5.0"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:stage1": "jest test/stage1.test.js || true",
+    "test:stage2": "jest test/stage2.test.js || true",
+    "test:stage3": "jest test/stage3.test.js || true",
+    "test:stage4": "jest test/stage4.test.js || true"
+  }
+}
