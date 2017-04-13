@@ -95,6 +95,7 @@ describe('Bike', () => {
 
   test('can tell the number of speeds with #gearSpeeds()', () => {
     const myBike = new Bike()
+    myBike.rings = [3,7]
     expect(myBike.gearSpeeds()).toBe(21)
     myBike.rings = [2,5]
     expect(myBike.gearSpeeds()).toBe(10)
