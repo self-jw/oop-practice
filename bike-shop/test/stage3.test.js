@@ -93,7 +93,7 @@ describe('Bike', () => {
     expect(typeof myBike.gearSpeeds).toBe('function')
   })
 
-  test('can tell the number of speeds with #gearSpeeds()', () => {
+  test('can tell the number of speeds with #gearSpeeds() (assuming the default rings of 3 in front and 7 in back)', () => {
     const myBike = new Bike()
     expect(myBike.gearSpeeds()).toBe(21)
     myBike.rings = [2,5]
