@@ -13,5 +13,5 @@ function Tire() {
 module.exports = {
   Bike: Bike,
   Frame: Frame,
-  Tire: Tire
-}
+  Tire: Tire,
+};
