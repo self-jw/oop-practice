@@ -47,10 +47,6 @@ Tire.prototype.repair = function () {
   this._isFlat = false;
 };
 
-// Setup the inheritance chain to have the Tire access the bike protoypes.
-Tire.prototype.__proto__ = Bike.prototype;
-
-
 module.exports = {
   Bike: Bike,
   Frame: Frame,
